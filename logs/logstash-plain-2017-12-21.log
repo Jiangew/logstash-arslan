@@ -1,0 +1,295 @@
+[2017-12-21T10:57:18,261][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-21T10:57:18,273][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-21T10:57:19,113][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-21T10:57:19,115][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-21T10:57:19,241][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-21T10:57:19,243][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-21T10:57:19,323][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-21T10:57:19,336][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-21T10:57:19,338][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-21T10:57:19,524][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-21T10:57:19,591][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-21T10:58:01,158][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment;) AS `t1` LIMIT 1
+[2017-12-21T10:58:01,161][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-21T10:58:01,162][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-21T10:59:00,149][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment;) AS `t1` LIMIT 1
+[2017-12-21T10:59:00,151][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-21T10:59:00,152][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-21T11:00:00,010][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment;) AS `t1` LIMIT 1
+[2017-12-21T11:00:00,012][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-21T11:00:00,013][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-21T11:00:15,506][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:00:15,734][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:00:15,928][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:00:35,547][WARN ][logstash.filters.json    ] Error parsing json {:source=>"message", :raw=>"\e[A", :exception=>#<LogStash::Json::ParserError: Illegal character ((CTRL-CHAR, code 27)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: [B@4be6e215; line: 1, column: 2]>}
+[2017-12-21T11:00:36,013][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:00:36,728][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:00:38,300][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:01:00,201][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment;) AS `t1` LIMIT 1
+[2017-12-21T11:01:00,203][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-21T11:01:00,203][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-21T11:01:27,286][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:01:29,186][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:01:29,681][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:01:30,287][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:01:30,720][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:01:31,032][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:01:34,841][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:01:36,825][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:01:38,534][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-21T11:01:38,542][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-21T11:03:41,190][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-21T11:03:41,213][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-21T11:03:41,920][ERROR][logstash.plugins.registry] Problems loading a plugin with {:type=>"filter", :name=>"elasticsearch", :path=>"logstash/filters/elasticsearch", :error_message=>"NameError", :error_class=>NameError, :error_backtrace=>["/Users/Jiangew/logstash/logstash-core/lib/logstash/plugins/registry.rb:226:in `namespace_lookup'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/plugins/registry.rb:162:in `legacy_lookup'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/plugins/registry.rb:138:in `lookup'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/plugins/registry.rb:180:in `lookup_pipeline_plugin'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/plugin.rb:140:in `lookup'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/pipeline.rb:103:in `plugin'", "(eval):16:in `initialize'", "org/jruby/RubyKernel.java:1079:in `eval'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/pipeline.rb:75:in `initialize'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/pipeline.rb:165:in `initialize'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/agent.rb:286:in `create_pipeline'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/agent.rb:95:in `register_pipeline'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/runner.rb:313:in `execute'", "/Users/Jiangew/logstash/vendor/bundle/jruby/1.9/gems/clamp-0.6.5/lib/clamp/command.rb:67:in `run'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/runner.rb:204:in `run'", "/Users/Jiangew/logstash/vendor/bundle/jruby/1.9/gems/clamp-0.6.5/lib/clamp/command.rb:132:in `run'", "/Users/Jiangew/logstash/lib/bootstrap/environment.rb:71:in `(root)'"]}
+[2017-12-21T11:03:41,930][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Couldn't find any filter plugin named 'elasticsearch'. Are you sure this is correct? Trying to load the elasticsearch filter plugin resulted in this error: Problems loading the requested plugin named elasticsearch of type filter. Error: NameError NameError"}
+[2017-12-21T11:50:27,349][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-21T11:50:27,353][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-21T11:50:27,671][ERROR][logstash.filters.json    ] Missing a required setting for the json filter plugin:
+
+  filter {
+    json {
+      source => # SETTING MISSING
+      ...
+    }
+  }
+[2017-12-21T11:50:27,678][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Something is wrong with your configuration."}
+[2017-12-21T11:51:17,357][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-21T11:51:17,362][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-21T11:51:18,249][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-21T11:51:18,251][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-21T11:51:18,378][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-21T11:51:18,379][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-21T11:51:18,456][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-21T11:51:18,461][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-21T11:51:18,467][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-21T11:51:18,641][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-21T11:51:18,714][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-21T11:53:45,063][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:53:48,439][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:53:51,126][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:53:57,664][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:53:59,093][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:54:01,730][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:54:03,249][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:54:04,434][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:54:05,555][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:54:06,431][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T11:56:11,626][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-21T11:56:11,635][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-21T12:04:54,519][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-21T12:04:54,524][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-21T12:04:55,365][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-21T12:04:55,366][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-21T12:04:55,468][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-21T12:04:55,469][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-21T12:04:55,515][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-21T12:04:55,521][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-21T12:04:55,525][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-21T12:04:55,687][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-21T12:04:55,760][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-21T12:07:16,597][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T12:07:18,236][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T12:07:19,051][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T12:07:19,521][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T12:07:19,935][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T12:08:55,543][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-21T12:08:55,551][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-21T12:10:26,150][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-21T12:10:26,154][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-21T12:10:26,810][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-21T12:10:26,811][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-21T12:10:26,903][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-21T12:10:26,904][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-21T12:10:26,936][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-21T12:10:26,942][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-21T12:10:26,955][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-21T12:10:27,105][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-21T12:10:27,166][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-21T12:12:54,982][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T12:13:11,236][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T12:13:12,710][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T12:13:13,925][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T12:13:15,272][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-21T12:14:49,593][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-21T12:14:49,604][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-21T12:15:14,084][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-21T12:15:14,088][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-21T12:15:14,332][ERROR][logstash.filters.json    ] Unknown setting 'raw' for json
+[2017-12-21T12:15:14,338][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Something is wrong with your configuration."}
+[2017-12-21T12:15:50,183][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-21T12:15:50,190][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-21T12:15:51,029][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-21T12:15:51,030][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-21T12:15:51,216][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-21T12:15:51,218][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-21T12:15:51,266][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-21T12:15:51,273][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-21T12:15:51,275][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-21T12:15:51,447][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-21T12:15:51,527][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-21T12:16:01,213][INFO ][logstash.inputs.jdbc     ] (0.017000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T12:16:01,226][INFO ][logstash.inputs.jdbc     ] (0.007000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T12:17:00,172][INFO ][logstash.inputs.jdbc     ] (0.004000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T12:17:00,176][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T12:18:00,068][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T12:18:00,073][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T12:19:00,260][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T12:19:00,269][INFO ][logstash.inputs.jdbc     ] (0.004000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T12:20:00,157][INFO ][logstash.inputs.jdbc     ] (0.004000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T12:20:00,164][INFO ][logstash.inputs.jdbc     ] (0.003000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T12:21:00,024][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T12:21:00,029][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T12:22:00,209][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T12:22:00,214][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T12:22:35,280][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-21T12:22:35,286][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-21T12:26:27,599][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-21T12:26:27,603][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-21T12:26:28,178][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-21T12:26:28,180][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-21T12:26:28,381][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-21T12:26:28,382][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-21T12:26:28,429][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-21T12:26:28,436][INFO ][logstash.outputs.elasticsearch] Installing elasticsearch template to _template/logstash
+[2017-12-21T12:26:28,544][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-21T12:26:28,548][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-21T12:26:28,775][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-21T12:26:28,868][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-21T12:28:00,870][INFO ][logstash.inputs.jdbc     ] (0.009000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T12:28:00,878][INFO ][logstash.inputs.jdbc     ] (0.005000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T12:29:54,605][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-21T12:29:54,613][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-21T14:49:13,049][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-21T14:49:13,054][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-21T14:49:13,336][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Illegal pattern component: u"}
+[2017-12-21T14:51:59,896][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-21T14:51:59,902][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-21T14:52:00,617][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-21T14:52:00,619][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-21T14:52:00,726][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-21T14:52:00,728][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-21T14:52:00,778][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-21T14:52:00,786][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-21T14:52:00,788][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-21T14:52:00,984][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-21T14:52:01,043][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-21T14:53:01,027][INFO ][logstash.inputs.jdbc     ] (0.007000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T14:53:01,037][INFO ][logstash.inputs.jdbc     ] (0.007000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T14:54:00,193][INFO ][logstash.inputs.jdbc     ] (0.003000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T14:54:00,213][INFO ][logstash.inputs.jdbc     ] (0.007000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T14:55:00,058][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T14:55:00,062][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T14:56:00,266][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T14:56:00,270][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T14:56:43,125][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-21T14:56:43,132][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-21T15:06:43,486][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-21T15:06:43,490][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-21T15:06:44,303][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-21T15:06:44,304][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-21T15:06:44,443][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-21T15:06:44,446][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-21T15:06:44,494][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-21T15:06:44,500][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-21T15:06:44,502][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-21T15:06:44,767][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-21T15:06:44,832][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-21T15:07:01,079][INFO ][logstash.inputs.jdbc     ] (0.007000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:07:01,088][INFO ][logstash.inputs.jdbc     ] (0.005000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:08:00,200][INFO ][logstash.inputs.jdbc     ] (0.008000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:08:00,205][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:09:00,063][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:09:00,069][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:10:00,255][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:10:00,261][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:11:00,118][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:11:00,120][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:12:00,295][INFO ][logstash.inputs.jdbc     ] (0.000000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:12:00,297][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:13:00,121][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:13:00,124][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:14:00,025][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:14:00,031][INFO ][logstash.inputs.jdbc     ] (0.003000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:14:02,583][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-21T15:14:02,593][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-21T15:23:45,190][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-21T15:23:45,196][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-21T15:23:45,991][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-21T15:23:45,993][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-21T15:23:46,115][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-21T15:23:46,116][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-21T15:23:46,171][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-21T15:23:46,196][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-21T15:23:46,198][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-21T15:23:46,382][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-21T15:23:46,448][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-21T15:24:00,905][INFO ][logstash.inputs.jdbc     ] (0.006000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:24:00,915][INFO ][logstash.inputs.jdbc     ] (0.003000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:24:49,753][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-21T15:24:49,760][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-21T15:34:05,076][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-21T15:34:05,081][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-21T15:34:05,822][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-21T15:34:05,823][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-21T15:34:05,951][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-21T15:34:05,956][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-21T15:34:06,008][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-21T15:34:06,014][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-21T15:34:06,025][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-21T15:34:06,280][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-21T15:34:06,346][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-21T15:35:00,810][INFO ][logstash.inputs.jdbc     ] (0.008000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:35:00,819][INFO ][logstash.inputs.jdbc     ] (0.004000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:36:00,274][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:36:00,286][INFO ][logstash.inputs.jdbc     ] (0.003000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:37:00,123][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:37:00,129][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:38:00,066][INFO ][logstash.inputs.jdbc     ] (0.003000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:38:00,076][INFO ][logstash.inputs.jdbc     ] (0.004000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:39:00,225][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:39:00,229][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:40:00,101][INFO ][logstash.inputs.jdbc     ] (0.003000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:40:00,104][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:41:00,287][INFO ][logstash.inputs.jdbc     ] (0.000000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:41:00,291][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:42:00,164][INFO ][logstash.inputs.jdbc     ] (0.004000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:42:00,170][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:43:00,032][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:43:00,039][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:44:00,220][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:44:00,224][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:45:00,084][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:45:00,087][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:46:00,294][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:46:00,297][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:47:00,165][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:47:00,168][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:48:00,039][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:48:00,043][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:49:00,245][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:49:00,248][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:50:00,301][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:50:00,305][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:51:00,032][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:51:00,037][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:52:00,056][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:52:00,059][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:53:00,063][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:53:00,066][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:54:00,298][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:54:00,301][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:55:00,176][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:55:00,179][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:56:00,068][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:56:00,070][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:57:00,251][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:57:00,253][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:58:00,140][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:58:00,143][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T15:59:00,174][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T15:59:00,181][INFO ][logstash.inputs.jdbc     ] (0.003000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T16:00:00,195][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT * FROM comment) AS `t1` LIMIT 1
+[2017-12-21T16:00:00,201][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT * FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-21T16:00:06,354][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-21T16:00:06,366][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}

@@ -1,0 +1,701 @@
+[2017-12-20T21:28:21,970][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T21:28:22,008][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T21:28:22,033][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.queue", :path=>"/Users/Jiangew/logstash/data/queue"}
+[2017-12-20T21:28:22,046][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.dead_letter_queue", :path=>"/Users/Jiangew/logstash/data/dead_letter_queue"}
+[2017-12-20T21:28:22,086][INFO ][logstash.agent           ] No persistent UUID file found. Generating new UUID {:uuid=>"4237a448-39a6-453c-885d-0ea50c90e16a", :path=>"/Users/Jiangew/logstash/data/uuid"}
+[2017-12-20T21:28:22,746][ERROR][logstash.outputs.elasticsearch] Unknown setting 'host' for elasticsearch
+[2017-12-20T21:28:22,746][ERROR][logstash.outputs.elasticsearch] Unknown setting 'port' for elasticsearch
+[2017-12-20T21:28:22,746][ERROR][logstash.outputs.elasticsearch] Unknown setting 'protocol' for elasticsearch
+[2017-12-20T21:28:22,746][ERROR][logstash.outputs.elasticsearch] Unknown setting 'cluster' for elasticsearch
+[2017-12-20T21:28:22,761][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Something is wrong with your configuration."}
+[2017-12-20T21:31:07,733][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T21:31:07,738][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T21:31:08,089][ERROR][logstash.outputs.elasticsearch] Unknown setting 'host' for elasticsearch
+[2017-12-20T21:31:08,089][ERROR][logstash.outputs.elasticsearch] Unknown setting 'port' for elasticsearch
+[2017-12-20T21:31:08,089][ERROR][logstash.outputs.elasticsearch] Unknown setting 'protocol' for elasticsearch
+[2017-12-20T21:31:08,089][ERROR][logstash.outputs.elasticsearch] Unknown setting 'cluster' for elasticsearch
+[2017-12-20T21:31:08,102][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Something is wrong with your configuration."}
+[2017-12-20T21:36:16,752][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T21:36:16,757][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T21:36:17,088][ERROR][logstash.outputs.elasticsearch] Unknown setting 'host' for elasticsearch
+[2017-12-20T21:36:17,089][ERROR][logstash.outputs.elasticsearch] Unknown setting 'port' for elasticsearch
+[2017-12-20T21:36:17,089][ERROR][logstash.outputs.elasticsearch] Unknown setting 'protocol' for elasticsearch
+[2017-12-20T21:36:17,091][ERROR][logstash.outputs.elasticsearch] Unknown setting 'cluster' for elasticsearch
+[2017-12-20T21:36:17,099][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Something is wrong with your configuration."}
+[2017-12-20T21:38:53,339][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T21:38:53,343][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T21:38:53,673][ERROR][logstash.outputs.elasticsearch] Unknown setting 'host' for elasticsearch
+[2017-12-20T21:38:53,673][ERROR][logstash.outputs.elasticsearch] Unknown setting 'port' for elasticsearch
+[2017-12-20T21:38:53,673][ERROR][logstash.outputs.elasticsearch] Unknown setting 'protocol' for elasticsearch
+[2017-12-20T21:38:53,674][ERROR][logstash.outputs.elasticsearch] Unknown setting 'cluster' for elasticsearch
+[2017-12-20T21:38:53,684][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Something is wrong with your configuration."}
+[2017-12-20T21:39:27,255][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T21:39:27,258][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T21:39:27,710][ERROR][logstash.outputs.elasticsearch] Unknown setting 'host' for elasticsearch
+[2017-12-20T21:39:27,710][ERROR][logstash.outputs.elasticsearch] Unknown setting 'port' for elasticsearch
+[2017-12-20T21:39:27,710][ERROR][logstash.outputs.elasticsearch] Unknown setting 'protocol' for elasticsearch
+[2017-12-20T21:39:27,711][ERROR][logstash.outputs.elasticsearch] Unknown setting 'cluster' for elasticsearch
+[2017-12-20T21:39:27,720][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Something is wrong with your configuration."}
+[2017-12-20T21:42:41,472][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T21:42:41,476][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T21:42:41,855][ERROR][logstash.outputs.elasticsearch] Unknown setting 'port' for elasticsearch
+[2017-12-20T21:42:41,855][ERROR][logstash.outputs.elasticsearch] Unknown setting 'protocol' for elasticsearch
+[2017-12-20T21:42:41,855][ERROR][logstash.outputs.elasticsearch] Unknown setting 'cluster' for elasticsearch
+[2017-12-20T21:42:41,864][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Something is wrong with your configuration."}
+[2017-12-20T21:43:39,485][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T21:43:39,490][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T21:43:39,885][ERROR][logstash.outputs.elasticsearch] Unknown setting 'protocol' for elasticsearch
+[2017-12-20T21:43:39,885][ERROR][logstash.outputs.elasticsearch] Unknown setting 'cluster' for elasticsearch
+[2017-12-20T21:43:39,895][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Something is wrong with your configuration."}
+[2017-12-20T21:46:13,863][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T21:46:13,870][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T21:46:14,187][ERROR][logstash.plugins.registry] Problems loading a plugin with {:type=>"output", :name=>"elasticsearch_http", :path=>"logstash/outputs/elasticsearch_http", :error_message=>"NameError", :error_class=>NameError, :error_backtrace=>["/Users/Jiangew/logstash/logstash-core/lib/logstash/plugins/registry.rb:226:in `namespace_lookup'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/plugins/registry.rb:162:in `legacy_lookup'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/plugins/registry.rb:138:in `lookup'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/plugins/registry.rb:180:in `lookup_pipeline_plugin'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/plugin.rb:140:in `lookup'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/pipeline.rb:103:in `plugin'", "(eval):43:in `initialize'", "org/jruby/RubyKernel.java:1079:in `eval'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/pipeline.rb:75:in `initialize'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/pipeline.rb:165:in `initialize'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/agent.rb:286:in `create_pipeline'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/agent.rb:95:in `register_pipeline'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/runner.rb:313:in `execute'", "/Users/Jiangew/logstash/vendor/bundle/jruby/1.9/gems/clamp-0.6.5/lib/clamp/command.rb:67:in `run'", "/Users/Jiangew/logstash/logstash-core/lib/logstash/runner.rb:204:in `run'", "/Users/Jiangew/logstash/vendor/bundle/jruby/1.9/gems/clamp-0.6.5/lib/clamp/command.rb:132:in `run'", "/Users/Jiangew/logstash/lib/bootstrap/environment.rb:71:in `(root)'"]}
+[2017-12-20T21:46:14,201][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Couldn't find any output plugin named 'elasticsearch_http'. Are you sure this is correct? Trying to load the elasticsearch_http output plugin resulted in this error: Problems loading the requested plugin named elasticsearch_http of type output. Error: NameError NameError"}
+[2017-12-20T21:52:24,600][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T21:52:24,607][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T21:52:25,251][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-20T21:52:25,252][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-20T21:52:25,357][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-20T21:52:25,358][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-20T21:52:25,435][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-20T21:52:25,445][INFO ][logstash.outputs.elasticsearch] Installing elasticsearch template to _template/logstash
+[2017-12-20T21:52:25,558][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-20T21:52:25,562][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-20T21:52:25,854][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-20T21:52:25,924][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-20T21:53:00,906][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2: SELECT count(*) AS `count` FROM (select cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag
+from comment;) AS `t1` LIMIT 1
+[2017-12-20T21:53:00,909][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2>}
+[2017-12-20T21:53:00,909][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T21:54:00,168][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2: SELECT count(*) AS `count` FROM (select cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag
+from comment;) AS `t1` LIMIT 1
+[2017-12-20T21:54:00,170][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2>}
+[2017-12-20T21:54:00,170][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T21:55:00,216][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2: SELECT count(*) AS `count` FROM (select cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag
+from comment;) AS `t1` LIMIT 1
+[2017-12-20T21:55:00,217][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2>}
+[2017-12-20T21:55:00,217][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T21:56:00,233][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2: SELECT count(*) AS `count` FROM (select cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag
+from comment;) AS `t1` LIMIT 1
+[2017-12-20T21:56:00,235][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2>}
+[2017-12-20T21:56:00,236][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T21:57:00,244][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2: SELECT count(*) AS `count` FROM (select cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag
+from comment;) AS `t1` LIMIT 1
+[2017-12-20T21:57:00,246][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2>}
+[2017-12-20T21:57:00,246][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T21:58:00,274][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2: SELECT count(*) AS `count` FROM (select cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag
+from comment;) AS `t1` LIMIT 1
+[2017-12-20T21:58:00,276][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2>}
+[2017-12-20T21:58:00,277][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T21:59:00,013][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2: SELECT count(*) AS `count` FROM (select cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag
+from comment;) AS `t1` LIMIT 1
+[2017-12-20T21:59:00,015][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2>}
+[2017-12-20T21:59:00,015][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:00:00,061][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2: SELECT count(*) AS `count` FROM (select cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag
+from comment;) AS `t1` LIMIT 1
+[2017-12-20T22:00:00,063][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2>}
+[2017-12-20T22:00:00,064][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:00:13,361][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:13,518][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:13,693][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:25,469][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:27,224][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:28,049][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:28,535][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:30,185][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:30,529][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:30,749][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:30,961][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:31,153][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:31,342][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:31,574][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:44,451][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:44,899][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:45,315][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:45,771][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:46,157][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:46,369][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:46,586][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:46,785][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:46,988][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:47,211][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:47,417][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:00:47,619][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:00,173][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2: SELECT count(*) AS `count` FROM (select cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag
+from comment;) AS `t1` LIMIT 1
+[2017-12-20T22:01:00,175][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2>}
+[2017-12-20T22:01:00,175][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:01:36,292][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:36,488][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:38,797][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:39,208][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:41,480][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:41,822][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:42,109][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:42,393][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:42,687][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:43,013][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:43,357][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:43,646][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:43,875][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:44,115][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:44,338][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:44,551][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:44,770][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:45,008][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:45,246][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:45,480][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:01:45,723][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:02:00,189][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2: SELECT count(*) AS `count` FROM (select cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag
+from comment;) AS `t1` LIMIT 1
+[2017-12-20T22:02:00,191][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2>}
+[2017-12-20T22:02:00,191][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:03:00,173][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2: SELECT count(*) AS `count` FROM (select cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag
+from comment;) AS `t1` LIMIT 1
+[2017-12-20T22:03:00,175][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2>}
+[2017-12-20T22:03:00,175][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:03:48,101][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:03:48,329][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:03:48,987][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:03:49,386][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:03:49,580][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:03:49,775][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:03:50,000][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:03:50,419][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:03:50,627][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:03:50,821][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:03:51,020][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:00,190][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2: SELECT count(*) AS `count` FROM (select cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag
+from comment;) AS `t1` LIMIT 1
+[2017-12-20T22:04:00,191][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2>}
+[2017-12-20T22:04:00,191][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:04:43,028][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:43,348][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:43,684][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:43,950][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:44,182][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:44,451][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:44,755][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:44,984][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:45,969][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:46,248][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:46,531][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:46,759][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:47,038][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:47,574][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:47,860][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:48,108][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:48,325][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:48,558][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:48,838][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:50,810][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:51,026][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:51,248][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:51,481][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:51,716][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:51,946][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:04:52,184][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:00,215][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2: SELECT count(*) AS `count` FROM (select cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag
+from comment;) AS `t1` LIMIT 1
+[2017-12-20T22:05:00,216][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 2>}
+[2017-12-20T22:05:00,218][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:05:21,068][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:21,437][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:21,794][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:22,128][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:22,454][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:22,822][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:23,172][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:23,556][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:24,200][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:24,841][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:25,279][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:25,691][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:26,074][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:26,501][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:26,888][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:27,264][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:27,708][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:28,258][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:28,627][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:28,980][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:29,331][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:29,748][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:30,120][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:30,465][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:30,778][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:31,142][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:31,511][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:31,874][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:32,219][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:32,559][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:32,898][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:33,217][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:33,539][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:05:56,387][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-20T22:05:56,394][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-20T22:06:14,380][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T22:06:14,386][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T22:06:15,225][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-20T22:06:15,226][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-20T22:06:15,319][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-20T22:06:15,320][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-20T22:06:15,352][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-20T22:06:15,358][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-20T22:06:15,360][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-20T22:06:15,672][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-20T22:06:15,751][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-20T22:06:21,626][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:21,810][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:22,404][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:22,865][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:23,350][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:23,742][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:24,064][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:24,557][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:26,449][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:26,845][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:27,164][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:27,450][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:27,711][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:27,978][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:28,246][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:06:28,530][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:07:01,137][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10;) AS `t1` LIMIT 1
+[2017-12-20T22:07:01,140][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-20T22:07:01,141][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:07:11,656][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:07:11,824][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:07:12,571][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:07:12,796][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:07:13,007][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:07:13,193][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:07:13,376][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:07:13,558][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:07:13,737][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:07:13,923][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:07:14,379][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:07:14,567][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:07:14,759][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:07:15,005][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:08:00,040][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10;) AS `t1` LIMIT 1
+[2017-12-20T22:08:00,042][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-20T22:08:00,043][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:09:00,070][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10;) AS `t1` LIMIT 1
+[2017-12-20T22:09:00,072][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-20T22:09:00,072][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:09:44,635][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-20T22:09:44,643][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-20T22:10:55,782][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T22:10:55,787][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T22:10:56,485][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-20T22:10:56,486][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-20T22:10:56,583][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-20T22:10:56,584][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-20T22:10:56,629][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-20T22:10:56,642][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-20T22:10:56,672][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-20T22:10:56,839][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-20T22:10:56,895][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-20T22:11:00,949][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10;) AS `t1` LIMIT 1
+[2017-12-20T22:11:00,952][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-20T22:11:00,952][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:12:00,211][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10;) AS `t1` LIMIT 1
+[2017-12-20T22:12:00,213][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-20T22:12:00,213][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:12:20,947][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:12:21,777][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:12:22,187][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:12:22,577][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:12:23,023][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:12:23,460][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:12:23,859][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:12:24,243][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:12:24,632][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:12:25,023][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:12:25,383][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:12:25,720][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:12:26,058][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:12:26,417][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:00,259][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10;) AS `t1` LIMIT 1
+[2017-12-20T22:13:00,264][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-20T22:13:00,265][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:13:14,659][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:14,867][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:15,046][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:15,221][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:15,408][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:15,802][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:16,027][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:16,221][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:16,427][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:16,617][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:16,805][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:17,024][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:17,233][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:17,488][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:17,679][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:17,853][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:18,040][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:18,227][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:18,406][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:13:18,576][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:14:00,021][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10;) AS `t1` LIMIT 1
+[2017-12-20T22:14:00,024][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-20T22:14:00,025][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:14:30,620][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-20T22:14:30,628][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-20T22:14:45,893][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T22:14:45,897][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T22:14:46,572][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-20T22:14:46,573][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-20T22:14:46,673][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-20T22:14:46,675][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-20T22:14:46,717][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-20T22:14:46,721][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-20T22:14:46,724][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-20T22:14:46,902][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-20T22:14:46,968][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-20T22:15:01,208][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM `comment` AS `cm` LIMIT 10;) AS `t1` LIMIT 1
+[2017-12-20T22:15:01,219][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-20T22:15:01,240][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:15:35,417][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:35,604][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:35,804][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:36,010][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:36,513][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:36,729][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:36,900][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:37,079][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:37,261][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:37,437][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:37,616][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:37,778][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:37,965][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:38,310][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:38,518][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:38,700][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:38,875][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:15:39,035][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:00,039][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM `comment` AS `cm` LIMIT 10;) AS `t1` LIMIT 1
+[2017-12-20T22:16:00,041][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-20T22:16:00,042][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:16:32,626][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:32,833][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:33,019][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:33,227][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:33,591][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:33,815][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:34,024][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:34,220][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:34,409][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:34,603][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:34,780][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:35,001][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:35,184][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:35,371][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:35,575][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:35,792][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:16:36,007][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:17:00,111][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM `comment` AS `cm` LIMIT 10;) AS `t1` LIMIT 1
+[2017-12-20T22:17:00,112][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-20T22:17:00,112][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:18:00,164][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM `comment` AS `cm` LIMIT 10;) AS `t1` LIMIT 1
+[2017-12-20T22:18:00,165][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-20T22:18:00,165][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T22:18:34,466][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-20T22:18:34,475][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-20T22:19:58,099][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T22:19:58,103][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T22:19:58,407][ERROR][logstash.inputs.jdbc     ] Invalid setting for jdbc input plugin:
+
+  input {
+    jdbc {
+      # This setting must be a path
+      # File does not exist or cannot be opened SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10
+      statement_filepath => "SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10"
+      ...
+    }
+  }
+[2017-12-20T22:19:58,426][ERROR][logstash.agent           ] Cannot create pipeline {:reason=>"Something is wrong with your configuration."}
+[2017-12-20T22:21:55,113][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T22:21:55,116][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T22:21:55,750][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-20T22:21:55,751][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-20T22:21:55,868][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-20T22:21:55,869][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-20T22:21:55,907][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-20T22:21:55,912][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-20T22:21:55,914][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-20T22:21:56,077][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-20T22:21:56,148][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-20T22:22:00,844][INFO ][logstash.inputs.jdbc     ] (0.009000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 1
+[2017-12-20T22:22:00,849][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:23:00,082][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 1
+[2017-12-20T22:23:00,085][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:23:12,807][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:23:36,483][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:23:37,224][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:23:37,768][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:23:38,243][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:23:38,668][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:23:39,058][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:23:39,410][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:23:39,781][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:23:40,138][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:23:40,443][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:24:00,227][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 1
+[2017-12-20T22:24:00,232][INFO ][logstash.inputs.jdbc     ] (0.004000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:25:00,352][INFO ][logstash.inputs.jdbc     ] (0.088000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 1
+[2017-12-20T22:25:00,367][INFO ][logstash.inputs.jdbc     ] (0.003000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:26:00,009][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 1
+[2017-12-20T22:26:00,012][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:26:35,419][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:35,624][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:35,832][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:36,175][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:36,382][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:36,607][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:36,940][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:37,166][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:37,409][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:37,774][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:38,000][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:38,225][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:41,917][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:42,126][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:42,405][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:42,690][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:42,912][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:43,159][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:43,470][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:43,696][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:43,926][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:44,149][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:44,375][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:44,606][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:44,836][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:45,078][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:45,313][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:45,548][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:45,787][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:46,177][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:46,399][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:46,615][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:46,913][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:47,131][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:47,477][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:47,708][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:47,967][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:48,365][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:48,607][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:48,882][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:49,232][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:49,474][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:26:49,713][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:27:00,044][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 1
+[2017-12-20T22:27:00,051][INFO ][logstash.inputs.jdbc     ] (0.005000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:27:03,938][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:27:04,143][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:27:04,345][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:28:00,086][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 1
+[2017-12-20T22:28:00,090][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:28:04,149][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:28:04,352][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:28:04,544][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:28:04,714][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:28:04,885][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:28:05,056][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:28:05,229][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:28:05,705][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:28:05,914][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:28:06,100][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:28:06,338][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:28:06,550][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:29:00,119][INFO ][logstash.inputs.jdbc     ] (0.004000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 1
+[2017-12-20T22:29:00,134][INFO ][logstash.inputs.jdbc     ] (0.011000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:29:25,495][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-20T22:29:25,502][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-20T22:35:54,928][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T22:35:54,933][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T22:35:55,645][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-20T22:35:55,646][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-20T22:35:55,740][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-20T22:35:55,740][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-20T22:35:55,786][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-20T22:35:55,792][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-20T22:35:55,808][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-20T22:35:55,984][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-20T22:35:56,039][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-20T22:36:00,966][INFO ][logstash.inputs.jdbc     ] (0.009000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:36:00,971][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:37:00,015][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:37:00,020][INFO ][logstash.inputs.jdbc     ] (0.004000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:37:55,470][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:55,702][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:55,898][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:56,071][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:56,267][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:56,450][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:56,634][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:56,829][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:57,203][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:57,848][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:58,035][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:58,242][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:58,499][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:58,707][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:58,886][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:59,070][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:59,262][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:59,453][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:59,652][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:37:59,830][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:38:00,000][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:38:00,022][INFO ][logstash.inputs.jdbc     ] (0.008000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:38:00,027][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:38:01,193][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:38:01,404][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:38:01,575][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:38:01,760][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:38:01,942][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:38:02,124][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:38:02,292][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:38:02,488][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:38:02,700][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T22:39:00,068][INFO ][logstash.inputs.jdbc     ] (0.004000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:39:00,074][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:40:00,114][INFO ][logstash.inputs.jdbc     ] (0.003000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:40:00,117][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:41:00,100][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:41:00,104][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:42:00,128][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:42:00,131][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:43:00,141][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:43:00,145][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:44:00,153][INFO ][logstash.inputs.jdbc     ] (0.004000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:44:00,158][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:45:00,156][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:45:00,158][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:46:00,174][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:46:00,177][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:47:00,166][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:47:00,169][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:48:00,174][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:48:00,176][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:49:00,172][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:49:00,175][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:50:00,185][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:50:00,189][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:50:24,387][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-20T22:50:24,395][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-20T22:50:47,380][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T22:50:47,384][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T22:50:48,015][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-20T22:50:48,016][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-20T22:50:48,110][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-20T22:50:48,112][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-20T22:50:48,146][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-20T22:50:48,156][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-20T22:50:48,157][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-20T22:50:48,315][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-20T22:50:48,386][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-20T22:51:00,876][INFO ][logstash.inputs.jdbc     ] (0.009000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:51:00,884][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:52:00,210][INFO ][logstash.inputs.jdbc     ] (0.003000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:52:00,216][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:53:00,244][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:53:00,249][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:54:00,031][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:54:00,035][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:55:00,007][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:55:00,010][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:56:00,014][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:56:00,017][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:57:00,020][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:57:00,023][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:58:00,031][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T22:58:00,037][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T22:58:58,583][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-20T22:58:58,589][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-20T23:00:43,214][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T23:00:43,217][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T23:00:43,893][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-20T23:00:43,894][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-20T23:00:43,990][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-20T23:00:43,991][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-20T23:00:44,034][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-20T23:00:44,043][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-20T23:00:44,059][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-20T23:00:44,232][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-20T23:00:44,297][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-20T23:01:00,733][INFO ][logstash.inputs.jdbc     ] (0.007000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 1
+[2017-12-20T23:01:00,739][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T23:02:00,107][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 1
+[2017-12-20T23:02:00,111][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T23:02:06,133][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:02:06,350][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:02:06,549][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:02:07,270][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:02:07,512][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:02:07,735][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:02:08,289][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:02:08,525][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:02:08,787][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:02:09,238][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:03:00,143][INFO ][logstash.inputs.jdbc     ] (0.003000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 1
+[2017-12-20T23:03:00,152][INFO ][logstash.inputs.jdbc     ] (0.003000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T23:04:00,204][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 1
+[2017-12-20T23:04:00,210][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T23:05:00,254][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 1
+[2017-12-20T23:05:00,256][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T23:05:38,640][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:05:38,843][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:05:39,035][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:05:39,225][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:05:41,461][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:05:41,679][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:05:41,887][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:05:42,176][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:05:42,384][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:05:42,700][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:05:43,037][WARN ][logstash.filters.json    ] Parsed JSON object/hash requires a target configuration option {:source=>"message", :raw=>""}
+[2017-12-20T23:06:00,287][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 1
+[2017-12-20T23:06:00,290][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T23:06:47,181][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-20T23:06:47,189][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-20T23:11:05,403][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T23:11:05,407][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T23:11:06,205][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-20T23:11:06,208][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-20T23:11:06,301][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-20T23:11:06,302][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-20T23:11:06,339][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-20T23:11:06,344][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-20T23:11:06,346][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-20T23:11:06,545][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-20T23:11:06,615][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-20T23:12:01,007][ERROR][logstash.inputs.jdbc     ] Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1: SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment LIMIT 10;) AS `t1` LIMIT 1
+[2017-12-20T23:12:01,010][WARN ][logstash.inputs.jdbc     ] Exception when executing JDBC query {:exception=>#<Sequel::DatabaseError: Java::ComMysqlJdbcExceptionsJdbc4::MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) AS `t1` LIMIT 1' at line 1>}
+[2017-12-20T23:12:01,011][WARN ][logstash.inputs.jdbc     ] Attempt reconnection.
+[2017-12-20T23:12:43,575][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-20T23:12:43,585][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-12-20T23:13:38,420][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/Users/Jiangew/logstash/modules/netflow/configuration"}
+[2017-12-20T23:13:38,426][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/Users/Jiangew/logstash/modules/fb_apache/configuration"}
+[2017-12-20T23:13:39,204][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-12-20T23:13:39,205][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-12-20T23:13:39,296][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://localhost:9200/"}
+[2017-12-20T23:13:39,297][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-12-20T23:13:39,337][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-12-20T23:13:39,342][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//localhost:9200"]}
+[2017-12-20T23:13:39,347][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-12-20T23:13:39,513][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-12-20T23:13:39,579][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-12-20T23:14:00,765][INFO ][logstash.inputs.jdbc     ] (0.006000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T23:14:00,771][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T23:15:00,202][INFO ][logstash.inputs.jdbc     ] (0.000000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T23:15:00,205][INFO ][logstash.inputs.jdbc     ] (0.002000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T23:16:00,223][INFO ][logstash.inputs.jdbc     ] (0.001000s) SELECT count(*) AS `count` FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 1
+[2017-12-20T23:16:00,232][INFO ][logstash.inputs.jdbc     ] (0.004000s) SELECT * FROM (SELECT cid, csid, ctype, subtype, platform, chapterid, mid, createtime, updatetime, userid, lastreptime, userip, mark, reward, flower, tag FROM comment) AS `t1` LIMIT 50000 OFFSET 0
+[2017-12-20T23:16:22,238][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-12-20T23:16:22,245][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
