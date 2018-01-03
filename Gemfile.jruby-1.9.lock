@@ -675,7 +675,7 @@ DEPENDENCIES
   logstash-filter-useragent (~> 3)
   logstash-filter-uuid
   logstash-filter-xml
-  logstash-input-beats (~> 3)
+  logstash-input-beats
   logstash-input-couchdb_changes
   logstash-input-dead_letter_queue
   logstash-input-elasticsearch
